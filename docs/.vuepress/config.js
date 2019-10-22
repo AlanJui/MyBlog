@@ -13,5 +13,12 @@ module.exports = {
       '/guide/',
       '/posts/',
     ]
+  },
+  markdown: {
+    lineNumbers: true,
+    // options for markdown-it-anchor
+    anchor: { permalink: false },
+    // options for markdown-it-toc
+    toc: { includeLevel: [1, 4] }
   }
 }

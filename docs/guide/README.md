@@ -153,7 +153,7 @@ sidebar: auto
     - 個人專用型網址：填入第 21 行
     - 專案專用型網址：填入第 25 行
     
-    ```shell script{21,25}
+    ```shell{21,25}
     #!/usr/bin/env sh
     
     # abort on errors
@@ -185,8 +185,8 @@ sidebar: auto
 
 2. 進入專案之「根目錄」，執行以下指令，要求 VuePress 將原屬 Markdown 檔案格式之文章，轉換成「網頁」專用之 HTML 檔案格式。轉換完成的輸出檔案，置放於： `docs/.vuepress/dist/` 目錄中。緊接著便立即執行「往 GitHub 佈署」作業，此時，將依 deploy.sh 中的「設定」，自位於 `docs/.vuepress/dist/` 目錄中的檔案，往 GitHub 傳送，完成部落格之佈署工作。
 
-    ```shell script
-	$ . deploy.sh
+    ```shell
+	. deploy.sh
     ```
 
     ::: tip
