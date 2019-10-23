@@ -7,7 +7,9 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
   "devDependencies": {
     "eslint": "^5.8.0",
     "eslint-plugin-jest": "^21.26.2",

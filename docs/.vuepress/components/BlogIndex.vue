@@ -1,10 +1,11 @@
 <template>
   <div>
-    <div v-for="post in posts">
+    <div class="article" v-for="post in posts">
       <h2>
         <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
       </h2>
       <div class="tags">
+        <span class="publish-date">{{formateDate(post.frontmatter.date)}}</span>
         <span class="tag" v-for="tag in post.frontmatter.tags">{{tag}}</span>
       </div>
 
@@ -18,7 +19,14 @@
 </template>
 
 <script>
+  import moment from "moment";
+
   export default {
+    methods: {
+      formateDate(date, format = 'YYYY-MM-DD') {
+        return moment(date).format(format);
+      }
+    },
     computed: {
       posts () {
         return this.$site.pages
@@ -48,5 +56,11 @@
     margin-right: 5px;
     color: white;
     font-weight: 500;
+  }
+
+  .publish-date {
+    color: #3eaf7c;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 </style>
