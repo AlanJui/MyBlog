@@ -4,7 +4,8 @@ date: 2018-10-19 22:49:00
 description: 學習 Vue.js ，首先得將「開發環境建置」的事情搞定。使用 macOS Catlina (V10.15) 作業系統的使用者，如何安裝及設定 Vue.js 相關的 SDK ，本文將有指引說明 How to ......
 sidebar: auto
 tags:
-    - macOS Catlina
+    - macOS
+    - Catlina
     - Vue.js
 ---
 
