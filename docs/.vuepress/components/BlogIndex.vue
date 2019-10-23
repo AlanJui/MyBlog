@@ -5,8 +5,16 @@
         <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
       </h2>
       <div class="tags">
-        <span class="publish-date">{{formateDate(post.frontmatter.date)}}</span>
-        <span class="tag" v-for="tag in post.frontmatter.tags">{{tag}}</span>
+        <span>
+          <Fa-CalendarAlt color="green" size="2x" />
+        </span>
+        <span class="publish-date">
+          {{formateDate(post.frontmatter.date)}}
+        </span>
+        &nbsp;&nbsp;<Fa-FileCode color="green" size="2x" />&nbsp;&nbsp;
+        <span class="tag" v-for="tag in post.frontmatter.tags">
+          {{tag}}
+        </span>
       </div>
 
       <p>{{ post.frontmatter.description }}</p>
@@ -44,23 +52,29 @@
     padding: 20px;
   }
 
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
   .tags {
-    margin-top: 10px;
+    /*margin-top: 5px;*/
   }
 
   .tag {
     padding: 5px;
     border-radius: 7px;
     font-size: small;
-    background: #3eaf7c;
+    background: steelblue;
     margin-right: 5px;
     color: white;
     font-weight: 500;
   }
 
   .publish-date {
-    color: #3eaf7c;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding-top: 5px;
+    color: steelblue;
+    font-weight: bold;
   }
 </style>
