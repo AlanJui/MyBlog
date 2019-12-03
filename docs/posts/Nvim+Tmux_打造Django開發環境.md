@@ -47,20 +47,20 @@ tags:
 因為對 Vim 或 Tmux ，「有點熟但不是很熟 」的朋友，有些「專有名詞」、「操作概念」還無法全掌握者，可參考以下資料，練好基本功，為實力紮基礎。
 
 
-### Python 開發者使用需求
+### 🖲 Python 開發者使用需求
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vlb3qUiS2ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### 何謂 Syntax Highlighting
+### 🖲 何謂 Syntax Highlighting
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P5US8U8-KmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### [Copy and Paste for tmux & vim on Linux](http://squidarth.com/programming/2018/12/14/tmux-linux.html)
+### 🖲 [Copy and Paste for tmux & vim on Linux](http://squidarth.com/programming/2018/12/14/tmux-linux.html)
 
 
-### [使用 Linux 的 AppImage 檔案在 Ubuntu 18.04 安裝 Nvim](https://github.com/neovim/neovim/releases/tag/v0.4.3)
+### 🖲 [使用 Linux 的 AppImage 檔案在 Ubuntu 18.04 安裝 Nvim](https://github.com/neovim/neovim/releases/tag/v0.4.3)
 
 
 
